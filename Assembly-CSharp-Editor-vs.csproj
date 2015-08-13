@@ -52,6 +52,7 @@
      <Compile Include="Assets\PlayFabSDK\Editor\PlayFabDocs.cs" />
      <Compile Include="Assets\PlayFabSDK\Editor\PlayFabGettingStarted.cs" />
      <Compile Include="Assets\PlayFabSDK\Editor\PlayFabPackager.cs" />
+     <None Include="Assets\PlayFabSDK\link.xml" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

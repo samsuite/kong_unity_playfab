@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using PlayFab;
 using PlayFab.ClientModels;
 
+
 public class data_manager : MonoBehaviour {
 
     public static bool hasGreenShip = false;
@@ -17,6 +18,10 @@ public class data_manager : MonoBehaviour {
     public delegate void data_event_handler();
     public static event data_event_handler on_data_loaded;
     public static event data_event_handler on_data_saved;
+
+    public void Start (){
+        PlayFabSettings.TitleId = "BC83";
+    }
 
     ////// GET USER DATA
 
